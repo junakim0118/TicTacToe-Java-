@@ -32,8 +32,7 @@ public class PlayTicTacToe_LearningComputer {
 		System.out.print("Please Enter Player 1's Name: ");
 		player1 = keyboard.readLine();
 		System.out.println(player1 + " you are X's");
-		// System.out.print("Please Enter Player 2's Name: ");
-		// player2 = keyboard.readLine();
+		
 		System.out.println("The computer is O's");
 		System.out.println("Press ENTER to continue");
 		keyboard.readLine();
@@ -45,11 +44,8 @@ public class PlayTicTacToe_LearningComputer {
 		while (gameOver == false) {
 			errorFlag = false;
 			if (turn % 2 == 0) {
-
 				do {
-
 					index = game.attackOrDefend();
-
 					errorFlag = game.play("O", index);
 					System.out.println(index);
 					if (errorFlag == false) {

@@ -100,32 +100,6 @@ public class GameBoard {
 		return win;
 	}
 
-	/*
-	 * public String winComb(String player) { // Enter code for this method here
-	 * 
-	 * String winC = " "; int winC1, winC2, winC3;
-	 * 
-	 * if (board[0].getOwner().equals(player) && board[1].getOwner().equals(player)
-	 * && board[2].getOwner().equals(player)) { winC1 = 0; winC2 = 1; winC3 = 2;
-	 * winC = "012"; } if (board[0].getOwner().equals(player) &&
-	 * board[4].getOwner().equals(player) && board[8].getOwner().equals(player)) {
-	 * winC1 = 0; winC2 = 4; winC3 = 8; winC = "048"; } if
-	 * (board[0].getOwner().equals(player) && board[3].getOwner().equals(player) &&
-	 * board[6].getOwner().equals(player)) { winC1 = 0; winC2 = 3; winC3 = 6; winC =
-	 * "036"; } if (board[1].getOwner().equals(player) &&
-	 * board[4].getOwner().equals(player) && board[7].getOwner().equals(player)) {
-	 * winC1 = 1; winC2 = 4; winC3 = 7; winC = "147"; } if
-	 * (board[2].getOwner().equals(player) && board[5].getOwner().equals(player) &&
-	 * board[8].getOwner().equals(player)) { winC1 = 2; winC2 = 5; winC3 = 8; winC =
-	 * "258"; } if (board[2].getOwner().equals(player) &&
-	 * board[4].getOwner().equals(player) && board[6].getOwner().equals(player)) {
-	 * winC1 = 2; winC2 = 4; winC3 = 6; winC = "246"; } if
-	 * (board[3].getOwner().equals(player) && board[4].getOwner().equals(player) &&
-	 * board[5].getOwner().equals(player)) { winC1 = 3; winC2 = 4; winC3 = 5; winC =
-	 * "345"; } if (board[6].getOwner().equals(player) &&
-	 * board[7].getOwner().equals(player) && board[8].getOwner().equals(player)) {
-	 * winC1 = 6; winC2 = 7; winC3 = 8; winC = "678"; } return winC; }
-	 */
 
 	/**
 	 * This will decide where should the smart computer move to attack or defend
